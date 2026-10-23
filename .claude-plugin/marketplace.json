@@ -1,0 +1,14 @@
+{
+  "name": "cs2-headset-eq",
+  "description": "Ajustes de áudio para CS2 no Windows.",
+  "owner": {
+    "name": "Thiago Irrazabal de Oliveira"
+  },
+  "plugins": [
+    {
+      "name": "cs2-headset-eq",
+      "source": "./",
+      "description": "Melhora o som do fone para ouvir passos no CS2 com Equalizer APO."
+    }
+  ]
+}

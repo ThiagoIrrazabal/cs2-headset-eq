@@ -1,0 +1,15 @@
+# Preset CS2 - Pantera Eco Light
+# Original salvo em config_original.txt
+# Reduz o grave "embolado" e realca a faixa dos passos (2-5 kHz)
+
+# Evita distorcao, ja que ha ganho positivo nos agudos
+Preamp: -5 dB
+
+# Grave: corta o excesso que abafa o som
+Filter 1: ON LS Fc 150 Hz Gain -4 dB
+# Medio-grave: tira o som "de caixa"
+Filter 2: ON PK Fc 300 Hz Gain -2 dB Q 1.0
+# Passos e posicionamento
+Filter 3: ON PK Fc 3000 Hz Gain 4 dB Q 1.0
+# Detalhe / definicao
+Filter 4: ON PK Fc 7000 Hz Gain 2 dB Q 1.5

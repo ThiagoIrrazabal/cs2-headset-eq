@@ -1,0 +1,12 @@
+{
+  "name": "cs2-headset-eq",
+  "version": "1.0.0",
+  "description": "Melhora o som do fone para ouvir passos no CS2: instala o Equalizer APO só na saída do fone e aplica um preset que tira o grave abafado e realça 2-5 kHz.",
+  "author": {
+    "name": "Thiago Irrazabal de Oliveira"
+  },
+  "homepage": "https://github.com/ThiagoIrrazabal/cs2-headset-eq",
+  "repository": "https://github.com/ThiagoIrrazabal/cs2-headset-eq",
+  "license": "MIT",
+  "keywords": ["cs2", "counter-strike", "audio", "equalizer", "headset", "windows"]
+}
